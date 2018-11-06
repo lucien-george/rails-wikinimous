@@ -7,3 +7,30 @@ li:hover {
 .container {
   margin: 20px auto;
 }
+
+.navbar {
+  background: rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.new-article {
+  text-decoration: none !important;
+}
+
+.article-title {
+  text-decoration: none !important;
+}
+
+.back-button {
+  margin: 20px auto;
+}
+
+.delete-button {
+  color: red;
+  text-decoration: none !important;
+}
+
+.delete-button:hover {
+  color: #c70000 !important;
+}
